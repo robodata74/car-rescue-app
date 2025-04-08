@@ -1,0 +1,29 @@
+.booking-page {
+    background-color: #001f3d;
+    color: white;
+    padding: 20px;
+  }
+  
+  .booking-input {
+    background-color: #003b5c;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .booking-button {
+    background-color: #005c8f;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .booking-button:hover {
+    background-color: #004b6b;
+  }
+  
