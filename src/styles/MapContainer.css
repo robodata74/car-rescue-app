@@ -1,0 +1,49 @@
+/* Map container wrapper */
+.map-container {
+    width: 100%;
+    height: 400px; /* Fixed height for the map, can be adjusted as needed */
+    margin: 20px auto; /* Adds margin for spacing from other elements */
+    padding: 15px; /* Padding to give space around the map */
+    background-color: #f5f5f5; /* Light gray background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    border: 2px solid #008080; /* Teal border around the map container */
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .map-container {
+        height: 300px; /* Reduce height on smaller screens */
+    }
+}
+
+/* Map iframe within the container */
+.map-container iframe {
+    width: 100%;
+    height: 100%; /* Full height to make the iframe responsive */
+    border-radius: 8px; /* Rounded corners for the iframe */
+    border: none; /* Remove default iframe border */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Hover effect on the map */
+.map-container iframe:hover {
+    transform: scale(1.05); /* Slight zoom-in effect when hovering over the iframe */
+}
+
+/* Optional: Add a title for the map container */
+.map-container .map-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8B0000; /* Blood red for title color */
+    text-align: center;
+    margin-bottom: 10px; /* Adds space between title and map */
+}
+
+/* Optional: Add a description or caption below the map */
+.map-container .map-caption {
+    font-size: 14px;
+    color: #006f6f; /* Darker teal */
+    text-align: center;
+    margin-top: 10px; /* Adds space between map and caption */
+}

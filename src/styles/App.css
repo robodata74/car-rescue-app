@@ -1,0 +1,170 @@
+/* General App Styles */
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff; /* White background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  color: #008080; /* Navy Blue */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #008080; /* Navy Blue */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Booking Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f4f4f4; /* Light background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #d9534f; /* Blood Red */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c9302c; /* Darker Blood Red */
+}
+
+/* Terms and Conditions Page */
+.terms {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.terms h1 {
+  text-align: center;
+  color: #008080; /* Navy Blue */
+}
+
+.terms p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.terms ul {
+  padding-left: 20px;
+}
+
+.terms li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #008080; /* Navy Blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Page Layout */
+.page-layout {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-footer {
+  background-color: #008080; /* Navy Blue */
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Home Page Styles */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.home-page h1 {
+  font-size: 36px;
+  color: #008080;
+}
+
+.home-page button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #d9534f; /* Blood Red */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.home-page button:hover {
+  background-color: #c9302c; /* Darker Blood Red */
+}
+

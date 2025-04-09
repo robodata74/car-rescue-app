@@ -1,0 +1,51 @@
+/* src/styles/SuccessPage.css */
+.success-page {
+    background-color: #f4f4f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .success-header {
+    background-color: #1a3a52; /* Navy Blue */
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .success-title {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .success-content {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .important-note {
+    font-weight: bold;
+    color: #b13f3f; /* Blood Red */
+    margin-top: 20px;
+  }
+  
+  .back-to-home {
+    display: inline-block;
+    background-color: #b13f3f; /* Blood Red */
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .back-to-home:hover {
+    background-color: #972c2c; /* Darker Blood Red */
+    cursor: pointer;
+  }
+  
