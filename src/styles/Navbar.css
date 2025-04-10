@@ -1,50 +1,46 @@
+/* src/components/Navbar.css */
+
 .navbar {
-    background-color: #8B0000; /* Blood Red */
-    padding: 15px 30px;
+    background-color: #333;
     color: white;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
   }
   
-  .logo a {
-    color: white;
-    font-weight: bold;
+  .navbar .logo h1 {
     font-size: 24px;
-    text-decoration: none;
+    margin: 0;
   }
   
-  .nav-links {
+  .navbar-links {
+    list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
   }
   
-  .nav-links a {
+  .navbar-links li {
+    display: inline-block;
+  }
+  
+  .navbar-links li button {
+    background-color: transparent;
     color: white;
-    text-decoration: none;
-    font-size: 16px;
+    border: none;
+    cursor: pointer;
   }
   
-  .nav-links a:hover {
+  .navbar-links li button:hover {
     text-decoration: underline;
   }
   
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+  }
   
-    .nav-links {
-      flex-direction: column;
-      width: 100%;
-      margin-top: 10px;
-    }
-  
-    .nav-links a {
-      padding: 10px 0;
-    }
+  .navbar-links li a:hover {
+    text-decoration: underline;
   }
   

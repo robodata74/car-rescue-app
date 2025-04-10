@@ -1,33 +1,17 @@
-// src/pages/Home.js
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/Home.css'; // Correct import for Home.css
-
-import logo from '../assets/logo.png'; // Path to your logo image
-import banner from '../assets/flatbed_banner.png'; // Path to your homepage banner image
+import { useTranslation } from 'react-i18next';
+import '../styles/Home.css';
+import flatbedBanner from '../assets/flatbed_banner.png'; // updated image path
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="home-page">
-      <header className="home-header">
-        <img src={logo} alt="Robert Motoring Consult Logo" className="logo" />
-        <h1 className="home-title">Welcome to Robert Motoring Consult</h1>
-        <p className="home-description">
-          Fast and reliable flatbed car rescue services.
-        </p>
-      </header>
-      <section className="banner-section">
-        <img
-          src={banner}
-          alt="Flatbed Banner"
-          className="flatbed-banner"
-        />
-      </section>
-      <section className="cta-section">
-        <Link to="/booking" className="cta-button">
-          Book a Rescue Service
-        </Link>
-      </section>
+    <div className="home-container">
+      <img src={flatbedBanner} alt="flatbed banner" className="flatbed-gif" />
+      <h1 className="home-title">{t('welcome')}</h1>
+      <p className="home-text">{t('home_description')}</p>
+      <a href="/booking" className="home-button">{t('book_now')}</a>
     </div>
   );
 };

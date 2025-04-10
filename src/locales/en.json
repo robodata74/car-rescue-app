@@ -1,0 +1,18 @@
+{
+    "navbar": {
+      "logo": "Car Rescue Service",
+      "home": "Home",
+      "booking": "Book a Flatbed",
+      "terms": "Terms & Conditions"
+    },
+    "booking": {
+      "title": "Booking a Flatbed Service",
+      "vehicle_details": "Vehicle Details",
+      "pickup_location": "Pickup Location",
+      "destination": "Destination"
+    },
+    "success": {
+      "message": "Booking Successful!"
+    }
+  }
+  

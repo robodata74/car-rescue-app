@@ -1,59 +1,43 @@
 /* src/styles/BookingPage.css */
-.booking-page {
-  padding: 20px;
-  background-color: #f4f4f9;
-}
-
-.booking-title {
-  text-align: center;
-  font-size: 2rem;
-  color: #1a3a52; /* Navy Blue */
-}
-
-.booking-form {
+.booking-wrapper {
+  padding: 2rem;
+  background-color: #ffffff;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 }
 
-.form-group {
-  margin-bottom: 15px;
+.form-title {
+  font-size: 24px;
+  color: navy;
+  margin-bottom: 1.5rem;
 }
 
-label {
+.booking-form section {
+  margin-bottom: 1.2rem;
+}
+
+.booking-form label {
   display: block;
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #aa0000;
 }
 
-.form-input {
+.booking-form input {
   width: 100%;
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 5px;
+  padding: 0.7rem;
+  border-radius: 8px;
   border: 1px solid #ccc;
 }
 
-.form-input.error {
-  border-color: #b13f3f; /* Blood Red */
-}
-
-.error-message {
-  color: #b13f3f;
-  font-size: 0.875rem;
-  margin-top: 5px;
-}
-
-.submit-btn {
-  background-color: #b13f3f; /* Blood Red */
+.submit-button {
+  background-color: #aa0000;
   color: white;
-  padding: 12px 30px;
-  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-}
-
-.submit-btn:hover {
-  background-color: #972c2c; /* Darker Blood Red */
+  font-weight: bold;
 }

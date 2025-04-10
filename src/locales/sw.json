@@ -1,0 +1,18 @@
+{
+    "navbar": {
+      "logo": "Huduma ya Uokoaji Magari",
+      "home": "Nyumbani",
+      "booking": "Agiza Flatbed",
+      "terms": "Masharti na Masharti"
+    },
+    "booking": {
+      "title": "Kuhifadhi Huduma ya Flatbed",
+      "vehicle_details": "Maelezo ya Gari",
+      "pickup_location": "Mahali pa Kuchukua",
+      "destination": "Mahali pa Kuletewa"
+    },
+    "success": {
+      "message": "Booking Imefanikiwa!"
+    }
+  }
+  
